@@ -39,3 +39,22 @@
     background-color: red;
 }
 
+.Inline{
+    background-color: red;
+    margin: 5px;
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.Grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 32.9%;
+    margin-top: 5%;
+}
+
+#Cabeçalho{
+    text-align: center;
+}
