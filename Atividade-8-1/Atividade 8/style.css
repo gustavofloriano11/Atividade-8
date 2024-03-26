@@ -1,0 +1,110 @@
+.alinhade {
+
+    margin: 0;
+    text-align: center;
+
+}
+
+.div {
+
+    display: inline-flex;
+
+}
+
+.red {
+
+    padding: 100px;
+    margin: 10px;
+    background-color: red;
+
+}
+
+.red2 {
+
+    padding: 100px;
+    padding-bottom: 150px;
+    margin: 10px;
+    background-color: rgb(216, 17, 50);
+
+}
+
+.teste{
+    display: block flex;
+}
+
+#redinho{
+    padding: 100px;
+    margin:10px;
+    margin-left:40%;
+    background-color: red;
+}
+
+.Inline{
+    background-color: red;
+    margin: 5px;
+    padding: 100px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.Grid{
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 32.9%;
+    margin-top: 5%;
+}
+
+#Cabeçalho{
+    text-align: center;
+}
+
+#posiStatic{
+    position: static;
+    top: 500px;
+    bottom: 700px;
+}
+
+#posiFixed{
+    position: fixed;
+    top: 73%;
+    right: 20%;
+    background-color: burlywood;
+    padding: 1%;
+}
+
+#posiSticky{
+    position:-webkit-sticky; 
+    position:sticky; 
+    top:0;
+    padding-bottom: 100px;
+    background-color: #4594c9;
+    margin-top: 5%;
+}
+
+#coiso{
+    font-size: 500px;
+}
+
+#posiRelative{
+    position: relative;
+    left: 10%
+}
+
+#posiAbsolutePai{
+    background-color: darkred;
+    color: white;
+    padding: 5%;
+    position: relative;
+}
+
+#posiAbsoluteFilho{
+    background-color: white;
+    color: darkred;
+    position: absolute;
+    top: 2%
+}
+
+p{
+    font-size: 18px;
+}
